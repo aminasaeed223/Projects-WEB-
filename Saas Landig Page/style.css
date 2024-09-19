@@ -1,0 +1,32 @@
+.myclass{
+    display:flex;
+    flex-direction: row;
+    word-spacing: 20;
+    background-color: rgb(4, 4, 131);
+    color: white;
+    display: flexbox;
+    
+}
+em{
+    color: rgb(179, 248, 179);
+
+}
+section1>h1{
+    color: white;
+    background-color:  rgb(4, 4, 131);
+    text-align: center;
+}
+section1>p{
+    color: white;
+    background-color:  rgb(4, 4, 131);
+    text-align: center;
+}
+.myclass{
+    background-color: rgb(4, 4, 131);
+}
+section1{
+    background-color: rgb(4, 4, 131);
+}
+section2>img{
+    align-items: center;
+}

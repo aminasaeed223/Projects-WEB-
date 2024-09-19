@@ -1,0 +1,32 @@
+.mycontainer{
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    margin:10px;
+}
+nav>ul>li{
+    color: red;
+    background-color: aqua;
+    transition: 0.3s;
+    padding : 2px;
+
+}
+@media(max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        display:none;
+
+    }
+    .hamburger{
+        display: block;
+    }
+    @media (max-width: 768px) {
+        nav ul.show {
+            display: flex; /* Show menu */
+        }
+
+    }}
