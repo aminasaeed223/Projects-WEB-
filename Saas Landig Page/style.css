@@ -1,32 +1,73 @@
-.myclass{
+.logo{
     display:flex;
-    flex-direction: row;
-    word-spacing: 20;
-    background-color: rgb(4, 4, 131);
-    color: white;
-    display: flexbox;
-    
+    align-items: center;
 }
-em{
-    color: rgb(179, 248, 179);
+.logo img {
+    height: 40px;
+    margin-right: 10px; 
+}
+
+.logo-text {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: white; 
+}
+
+header{
+    background-image: url('images/Ellipse 257.png'); 
+    background-size: cover; 
+    background-position: center;
+    color: white; 
+    padding: 100px 20px; 
+    text-align: center;
 
 }
-section1>h1{
-    color: white;
-    background-color:  rgb(4, 4, 131);
-    text-align: center;
+.nav-links {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Flex layout for horizontal alignment */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
-section1>p{
-    color: white;
-    background-color:  rgb(4, 4, 131);
-    text-align: center;
+
+.nav-links li {
+    margin: 0 15px; /* Space between links */
 }
-.myclass{
-    background-color: rgb(4, 4, 131);
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    font-weight: 500; /* Font weight for links */
+    transition: color 0.3s; /* Smooth transition */
 }
-section1{
-    background-color: rgb(4, 4, 131);
+
+.nav-links a:hover {
+    color: #00aaff; /* Change color on hover */
 }
-section2>img{
-    align-items: center;
+
+.cta {
+    margin-left: auto; /* Push CTA to the right */
+}
+
+.login-button, .signup-button {
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Button padding */
+    text-decoration: none; /* Remove underline */
+    border: 2px solid white; /* White border */
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 10px; /* Space between buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.signup-button {
+    background-color: #00aaff; /* Sign Up button background */
+    color: white; /* Text color */
+}
+
+.login-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light overlay on hover */
+}
+
+.signup-button:hover {
+    background-color: #0088cc; /* Darker shade on hover */
 }
