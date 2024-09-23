@@ -1,73 +1,69 @@
-.logo{
-    display:flex;
+.background {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-image: url("images/Ellipse 257.png"); /* Path to your blue background image */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Cover the entire area */
+}
+.navbar{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color:white;
+}
+.navbar li{
+    float:left;
+    padding: 3px 3 px;
+    list-style: none;
+    
+}
+.section {
+    padding: 20px; /* Add padding inside sections */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ccc; /* Optional: border for visibility */
+}
+
+.features {
+    margin-top: 50px;
+    /* Space above the features section */
+}
+.features {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding around the section */
+    margin-top: 50px; /* Space above the features section */
+    background-color: #f9f9f9; /* Light background for contrast */
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0; /* Remove default margin from h1 */
+}
+
+span {
+    display: block; /* Ensure span takes full width */
+    margin-top: 10px; /* Space between title and text */
+}
+.container{
+    display: flex;
+    gap: 60px;
+    margin: 0.2;
+    align-items: center; 
+    padding: 60px
+}
+.box{
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: white; /* Green color */
+    color: black; /* Text color */
+    text-align: center; /* Center text horizontally */
+    line-height: 150px; /* Center text vertically */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    flex-direction: row;
     align-items: center;
 }
-.logo img {
-    height: 40px;
-    margin-right: 10px; 
-}
-
-.logo-text {
-    font-size: 24px; 
-    font-weight: bold; 
-    color: white; 
-}
-
-header{
-    background-image: url('images/Ellipse 257.png'); 
-    background-size: cover; 
-    background-position: center;
-    color: white; 
-    padding: 100px 20px; 
-    text-align: center;
-
-}
-.nav-links {
-    list-style: none; /* Remove bullets */
-    display: flex; /* Flex layout for horizontal alignment */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-}
-
-.nav-links li {
-    margin: 0 15px; /* Space between links */
-}
-
-.nav-links a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Link color */
-    font-weight: 500; /* Font weight for links */
-    transition: color 0.3s; /* Smooth transition */
-}
-
-.nav-links a:hover {
-    color: #00aaff; /* Change color on hover */
-}
-
-.cta {
-    margin-left: auto; /* Push CTA to the right */
-}
-
-.login-button, .signup-button {
-    background-color: transparent; /* Transparent background */
-    color: white; /* Text color */
-    padding: 10px 15px; /* Button padding */
-    text-decoration: none; /* Remove underline */
-    border: 2px solid white; /* White border */
-    border-radius: 5px; /* Rounded corners */
-    margin-left: 10px; /* Space between buttons */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
-}
-
-.signup-button {
-    background-color: #00aaff; /* Sign Up button background */
-    color: white; /* Text color */
-}
-
-.login-button:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Light overlay on hover */
-}
-
-.signup-button:hover {
-    background-color: #0088cc; /* Darker shade on hover */
+.box{
+    align-content: center;
 }
