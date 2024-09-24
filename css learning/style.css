@@ -13,9 +13,11 @@ p{
     border: 2px solid red;
     border-radius: 5px;
     width: 500px;
+    padding:20px;
 }
 span{
     width:20px;
     height:30px;
     border:2px solid gray;
+    padding: 20px; 
 }
