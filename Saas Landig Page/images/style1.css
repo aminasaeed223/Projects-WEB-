@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+   
+}
+
+.hero-section {
+    background-image: url("images/Ellipse 257.png");
+    background-size: cover; /* Adjust the background image size */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Use percentage or suitable width */
+    height: 100vh; /* Set height to the full viewport */
+    position: relative; /* Keep position relative */
+    z-index: 1; /* Ensure it appears above other elements */
+    
+   
+}
+
+/* Adjust content elements inside .hero-section */
+.hero-section .content {
+    position: relative;
+    z-index: 2; /* Ensure content appears above the background image */
+    
+}
+
+
+
+/* Navbar styles */
+.navbar {
+   
+    background: transparent;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto; /* Center the container */
+}
+
+.navbar-brand img {
+    width: 158px;
+    height: 36px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 40px; /* Gap between nav links */
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px; /* Gap between Login and Sign Up buttons */
+}
+
+.btn-login {
+    width: 127px;
+    height: 46px;
+    padding: 12px 20px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-signUp {
+    width: 138px;
+    height: 46px;
+    padding: 12px 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effects for buttons */
+.btn-login:hover, .btn-signUp:hover {
+    opacity: 0.8;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 916px;
+    height: 162px;
+    margin-top: 150px;
+    margin-left: 300px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.heading{
+
+font-size: 64px;
+font-weight: 700;
+line-height: 81px;
+letter-spacing: 0.005em;
+text-align: center;
+color:  white;
+
+    }
+
+
+.business{
+    
+font-size: 64px;
+font-weight: 700;
+line-height: 81px;
+letter-spacing: 0.005em;
+text-align: center;
+color:  #37E2D5;
+text-decoration:underline ;
+
+
+}
+
+
+.hero-2{
+    
+width: 579px;
+height: 64px;
+margin-top: 50px;
+margin-left:470px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.text{
+
+    
+font-size: 17px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.40799999237060547px;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+
+.btn-container-2{
+    display: flex;
+    justify-content: space-between;
+    width: 371px;
+    height: 46px;
+    /* top: 513px;
+    left: 534px; */
+    gap: 25px;
+    opacity: 0px;
+    margin-top: 50px;
+margin-left:585px;
+
+}
+
+.btn1{
+    gap: 10px;
+    width: 161px;
+        height: 46px;
+        padding: 12px 45px 12px 45px;
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        color: #FFFFFF;
+        border-radius: 8px;
+        cursor: pointer;
+
+
+
+}
+
+
+.btn2{
+
+
+    width: 185px;
+    height: 46px;
+    padding: 12px 45px 12px 45px;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    cursor: pointer;
+    color: #0C0047;
+
+    
+
+
+
+    
+}
+.Dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures images are centered vertically */
+    gap: 0; /* Remove any gaps between flex items */
+    margin-top: 28px;
+   
+    
+}
+
+
+.img1{
+    box-shadow: 20px 20px 50px -12px #00000033;
+
+}
+
+.img2{
+    box-shadow: 20px 20px 50px -12px #00000033;
+
+}
+
+
+
+
+
+.text-area{
+display: flex;
+justify-content: center;
+width: 557px;
+height: 46px;
+margin-top: 125px;
+left: 441px;
+gap: 0px;
+opacity: 0px;
+margin-left: 530px;
+
+
+}
+
+
+.content{
+display: flex;
+justify-content: center;
+color: #0C0047;
+
+font-size: 36px;
+font-weight: 700;
+line-height: 45.54px;
+letter-spacing: 0.005em;
+text-align: center;
+
+}
+
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+.icon-logo{
+   
+
+width: 1250px;
+height: 300px;
+margin-top: 125px;
+margin-left: 70px;
+
+border-radius: 15px 0px 0px 0px;
+
+border-width: 0px, 0px, 0px, 0px;
+
+border-style: solid;
+
+border-color: #EAEAEA;
+
+
+}
+
+.ZenImage{
+    margin-top: 60px;
+    width: 265px;
+    height: 79px;
+  
+}
+
+
+
+
