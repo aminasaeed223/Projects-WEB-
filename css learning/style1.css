@@ -31,6 +31,7 @@
     margin: 20px;
 
 }
+
 #box1{
     background-color: aqua;
 }
@@ -43,3 +44,19 @@ background-color: black;
 #box4{
 background-color: beige;
 }
+@media (max-width: 500px) {
+    #box2{
+        background-color: green;
+    }
+   
+}
+@media (min-width: 640){
+.container{
+    flex-direction: row;
+}
+}
+@media (max-width: 640){
+    .container{
+        flex-direction: column;
+    }
+    }
