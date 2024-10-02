@@ -22,3 +22,11 @@
 #head1{
     text-shadow: 5px 5px 2px mediumslateblue;
 }
+p{
+    background-color: red;
+    transition: all 2s 2s;
+}
+p:hover{
+    background-color: lightpink;
+    width:900px;
+}
